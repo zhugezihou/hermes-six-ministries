@@ -14,7 +14,7 @@
     │
     ▼
 A2A Gateway (:18800)
-    │  Bearer token: a2a_zhongshu_2026
+    │  Bearer token: <YOUR_BEARER_TOKEN>
     │
     ▼
 六部尚书 (OpenClaw Agents)
@@ -72,9 +72,9 @@ python a2a_client/six_ministries_a2a_client.py --parallel dev hubu content --mes
 | 项目 | 值 |
 |------|-----|
 | A2A Gateway HTTP | `http://127.0.0.1:18800/a2a/jsonrpc` |
-| Bearer Token | `a2a_zhongshu_2026` |
+| Bearer Token | `<YOUR_BEARER_TOKEN>` |
 | 调度命令 | `openclaw-cn agent --agent <id> --message "..."` |
-| 朝堂群 | `oc_d860f9f653e3421db6ea419a81414cf6` |
+| 朝堂群 | `<GROUP_CHAT_ID>` |
 
 ## Agent ID 映射
 
