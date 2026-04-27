@@ -61,7 +61,7 @@ hermes-six-ministries 是一个运行在 OpenClaw Gateway 上的多 Agent 协调
 
 ### 六部尚书 → 中书令
 
-各部通过飞书群聊（`channel=feishu`，`peer=oc_d860f9f653e3421db6ea419a81414cf6`）向中书令汇报。
+各部通过飞书群聊（`channel=feishu`，`peer=<GROUP_CHAT_ID>`）向中书令汇报。
 
 ## A2A Gateway 说明
 
@@ -83,9 +83,9 @@ A2A Gateway（`win4r/openclaw-a2a-gateway`）实现了 Google A2A v0.3.0 协议�
   "match": {
     "channel": "feishu",
     "accountId": "gongbu",
-    "peer": { "kind": "group", "id": "oc_d860f9f653e3421db6ea419a81414cf6" }
+    "peer": { "kind": "group", "id": "<GROUP_CHAT_ID>" }
   }
 }
 ```
 
-朝堂群 ID：`oc_d860f9f653e3421db6ea419a81414cf6`
+朝堂群 ID：`<GROUP_CHAT_ID>`
