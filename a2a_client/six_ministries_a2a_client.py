@@ -33,8 +33,8 @@ import re
 from typing import Optional
 import requests
 
-A2A_GATEWAY_URL = "http://localhost:18800"
-A2A_BEARER_TOKEN = "a2a_zhongshu_2026"
+A2A_GATEWAY_URL = "http://127.0.0.1:18800/a2a/jsonrpc"
+A2A_BEARER_TOKEN="a2a_zhongshu_2026"
 CLI_TIMEOUT = 120  # seconds per agent
 
 # Agent ID → 部门名称映射
